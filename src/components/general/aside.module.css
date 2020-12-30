@@ -1,3 +1,43 @@
-body {
-  color: #263747;
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  height: 100vh;
+}
+
+.card_body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+  border-top: 1px solid #d7e2eb;
+  font-size: 15px;
+}
+.title {
+  font-size: 16px;
+}
+
+ul {
+  all: unset;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  list-style: none;
+  text-align: left;
+}
+
+.checkBox {
+  display: flex;
+  justify-content: left;
+}
+
+label:hover {
+  width: 100%;
+  cursor: pointer;
+  color: #a593e0;
+}
+
+.value {
+  float: right;
 }

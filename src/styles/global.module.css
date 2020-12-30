@@ -1,20 +1,37 @@
+@font-face {
+  font-family: "IBMPlexSansKR-Text";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Text.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
+  background-color: #ffffff;
+  font-family: "IBMPlexSansKR-Text";
+  color: #263747;
 }
 
 .container {
-  margin: 100px;
   display: flex;
   flex-direction: row;
+  max-width: 1000px !important;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .aside {
-  flex-grow: 1;
+  flex: 1 1;
+  max-width: 33.333333%;
+  margin-right: 2rem;
 }
 
 .article {
-  flex-grow: 2;
+  flex: 2 1;
 }
