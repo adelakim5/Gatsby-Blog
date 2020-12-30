@@ -6,7 +6,7 @@ export default function Aside() {
     <div className={asideStyles.card}>
       <div className={asideStyles.card_body}>
         <h5 className={asideStyles.title}>adelakim5</h5>
-        <ul>
+        <ul className={asideStyles.myAlgorithmInfo}>
           <li>
             현재까지 기록한 문제수
             <span className={asideStyles.value}>0</span>
@@ -35,7 +35,7 @@ export default function Aside() {
         </ul>
       </div>
       <div className={asideStyles.card_body}>
-        <h5 className={asideStyles.title}>Categories</h5>
+        <h5 className={asideStyles.title}>Tags</h5>
         <ul>
           <li className={asideStyles.list}>그 외 목록들을 채울 예정</li>
         </ul>
